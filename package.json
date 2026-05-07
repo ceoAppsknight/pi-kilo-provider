@@ -1,0 +1,31 @@
+{
+  "name": "@syedassadullahshah/pi-kilo-provider",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Kilo AI Gateway provider extension for Pi.",
+  "keywords": [
+    "pi-package",
+    "pi",
+    "pi-extension",
+    "kilo",
+    "provider",
+    "ai"
+  ],
+  "license": "MIT",
+  "scripts": {
+    "build": "echo 'nothing to build'",
+    "check": "echo 'nothing to check'"
+  },
+  "peerDependencies": {
+    "@mariozechner/pi-coding-agent": "*"
+  },
+  "pi": {
+    "extensions": [
+      "./index.ts"
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ceoAppsknight/pi-kilo-provider.git"
+  }
+}
